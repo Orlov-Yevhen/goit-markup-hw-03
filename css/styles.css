@@ -388,7 +388,22 @@ footer {
 /* -----------------------LIST TWO--------------------- */
 /* -----------------------PORTFOLIO--------------------- */
 
+.portfolio {
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+
+.portfolio-list {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-item:not(:last-child) {
+    margin-right: 8px;
+}
 .portfolio-btn {
+    padding: 6px 22px;
+    margin-bottom: 50px;
     font-family: inherit;
     cursor: pointer;
     background: #F5F4FA;
@@ -415,7 +430,29 @@ footer {
     color: #FFFFFF;
 }
 
+.portfolio-photo-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -30px;
+}
+
+.portfolio-photo {
+    flex-basis: calc((100% - 3 * 30px) / 3);
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 370px;
+    height: 404px;
+    left: 615px;
+    top: 262px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+}
+
 .portfolio-title {
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-top: 20px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -424,6 +461,9 @@ footer {
 }
 
 .portfolio-text {
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-top: 4px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
