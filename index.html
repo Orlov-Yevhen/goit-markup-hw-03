@@ -58,51 +58,48 @@
     <section class="pecu">
         <div class="container">
         <h2 class="visually-hidden">Особенности</h2>
-        <div class="pecu-list">
                 <ul class="pecu-box list">
-                    <li>
+                    <li class="pecu-details">
                         <h3 class="pecu-subtitle">Внимание к деталям</h3>
                         <p class="pecu-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                     </li>
-                </ul>
-                <ul class="pecu-box list">
-                    <li>
+                    <li class="pecu-details">
                         <h3 class="pecu-subtitle">Пунктуальность</h3>
                         <p class="pecu-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                     </li>
-                </ul>
-                <ul class="pecu-box list">
-                    <li>
+                    <li class="pecu-details">
                         <h3 class="pecu-subtitle">Планирование</h3>
                         <p class="pecu-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                     </li>
-                </ul>
-                <ul class="pecu-box list">
-                    <li>
+                    <li class="pecu-details">
                         <h3 class="pecu-subtitle">Современные технологии</h3>
                         <p class="pecu-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
                 </ul>
         </div>
-        <h2 class="pecu-title">Чем мы занимаемся</h2>
-        <ul class="pecu-photo list">
-            <li class="pecu-item">
-                <img src="./images/box1.jpg" alt="Примеры робот"
-                width="370"
-                height="294">
-            </li>
-            <li class="pecu-item">
-                <img src="./images/box2.jpg" alt="Примеры робот"
-                width="370"
-                height="294">
-            </li>
-            <li class="pecu-item">
-                <img src="./images/box3.jpg" alt="Примеры робот"
-                width="370"
-                height="294">
-            </li>
-        </ul>
-    </div>
+    </section>
+
+    <section class="classes">
+        <div class="container">
+            <h2 class="pecu-title">Чем мы занимаемся</h2>
+            <ul class="pecu-photo list">
+                <li class="pecu-item">
+                    <img src="./images/box1.jpg" alt="Примеры робот"
+                    width="370"
+                    height="294">
+                </li>
+                <li class="pecu-item">
+                    <img src="./images/box2.jpg" alt="Примеры робот"
+                    width="370"
+                    height="294">
+                </li>
+                <li class="pecu-item">
+                    <img src="./images/box3.jpg" alt="Примеры робот"
+                    width="370"
+                    height="294">
+                </li>
+            </ul>
+        </div>
     </section>
 
 <!---------------------TEAM---------------------------->
@@ -110,44 +107,46 @@
     <section class="team">
         <div class="container">
             <h2 class="team-title">Наша команда</h2>
-            <div class="team-box">
+            <!-- <div class="team-items"> -->
             <ul class="team-list list">
                 <li class="team-photo">
                     <img src="./images/team-card-1.jpg" alt="Фото команды"
                     width="270"
                     height="260">
-                    <h3 class="team-subtitle">Игорь Демьяненко</h3>
-                    <p class="team-text" lang="eu">Product Designer</p>
+                    <div class="team-box">
+                        <h3 class="team-subtitle">Игорь Демьяненко</h3>
+                        <p class="team-text" lang="eu">Product Designer</p>
+                    </div>
                 </li>
-            </ul>
-            <ul class="team-list list">
                 <li class="team-photo">
                     <img src="./images/team-card-2.jpg" alt="Фото команды"
                     width="270"
                     height="260">
-                    <h3 class="team-subtitle">Ольга Репина</h3>
-                    <p class="team-text" lang="eu">Frontend Developer</p>
+                    <div class="team-box">
+                        <h3 class="team-subtitle">Ольга Репина</h3>
+                        <p class="team-text" lang="eu">Frontend Developer</p>
+                    </div>
                 </li>
-            </ul>
-            <ul class="team-list list">
                 <li class="team-photo">
                     <img src="./images/team-card-3.jpg" alt="Фото команды"
                     width="270"
                     height="260">
-                    <h3 class="team-subtitle">Николай Тарасов</h3>
-                    <p class="team-text" lang="eu">Marketing</p>
+                    <div class="team-box">
+                        <h3 class="team-subtitle">Николай Тарасов</h3>
+                        <p class="team-text" lang="eu">Marketing</p>
+                    </div>
                 </li>
-            </ul>
-            <ul class="team-list list">
                 <li class="team-photo">
                     <img src="./images/team-card-4.jpg" alt="Фото команды"
                     width="270"
                     height="260">
-                    <h3 class="team-subtitle">Михаил Ермаков</h3>
-                    <p class="team-text" lang="eu">UI Designer</p>
+                    <div class="team-box">
+                        <h3 class="team-subtitle">Михаил Ермаков</h3>
+                        <p class="team-text" lang="eu">UI Designer</p>
+                    </div>
                 </li>
             </ul>
-        </div>
+            <!-- </div> -->
         </div>
     </section>
 </main>
@@ -159,14 +158,15 @@
         <a class="footer-logo link" lang="en" href="./"><span class="logo-web">Web</span>Studio</a>
         <address>
             <ul class="footer-address list">
-                <li><a class="footer-map link" href="https://goo.gl/maps/rfm62vgh137MeAdR9"
+                <li class="footer-items">
+                    <a class="footer-map link" href="https://goo.gl/maps/rfm62vgh137MeAdR9"
                     target="_blank" rel="noopener noreferrer"
                     >г. Киев, пр-т Леси Украинки, 26</a>
                 </li>
-                <li>
+                <li class="footer-items">
                     <a class="footer-mail link" href="mailto:info@example.com">info@example.com</a>
                 </li>
-                <li>
+                <li class="footer-items">
                     <a class="footer-tel link" href="tel:+380991111111">+38 099 111 11 11</a>
                 </li>
             </ul>
