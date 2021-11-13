@@ -165,9 +165,6 @@ body {
     padding-bottom: 200px;
     text-align: center;
 }
-/* .hero-container {
-    padding: 200px 0px;
-} */
 
 .hero-title {
     width: 696px;
@@ -452,9 +449,9 @@ footer {
 
 .portfolio-items {
     padding: 24px 20px;
-    border-left: 1; color: var(--border-color);
-    border-right: 1; color: var(--border-color);
-    border-bottom: 1; color: var(--border-color);
+    border-left: 1px color var(--border-color);
+    border-right: 1px color var(--border-color);
+    border-bottom: 1px color var(--border-color);
 }
 
 .portfolio-title {
