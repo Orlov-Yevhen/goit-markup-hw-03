@@ -408,10 +408,7 @@ footer {
     cursor: pointer;
     background: #F5F4FA;
     border-radius: 4px;
-}
 
-.portfolio-btn-text {
-    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -423,10 +420,6 @@ footer {
 .portfolio-btn:hover,
 .portfolio-btn:focus {
     background: var(--accent-color);
-}
-
-.portfolio-btn-text:hover,
-.portfolio-btn-text:focus {
     color: #FFFFFF;
 }
 
