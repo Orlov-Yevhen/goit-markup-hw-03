@@ -305,9 +305,9 @@ body {
     padding-top: 30px;
     padding-bottom: 30px;
     flex-direction: column;
-    border-left: 1px color var(--border-color);
-    border-right: 1px color var(--border-color);
-    border-bottom: 1px color var(--border-color);
+    border-left: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
 }
 
 .team-subtitle {
@@ -400,13 +400,14 @@ footer {
 /* -----------------------PORTFOLIO--------------------- */
 
 .portfolio {
-    margin-top: 94px;
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .portfolio-list {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .btn-item:not(:last-child) {
@@ -414,7 +415,6 @@ footer {
 }
 .portfolio-btn {
     padding: 6px 22px;
-    margin-bottom: 50px;
     font-family: inherit;
     cursor: pointer;
     background: #F5F4FA;
@@ -451,13 +451,12 @@ footer {
 
 .portfolio-items {
     padding: 24px 20px;
-    border-left: 1px color var(--border-color);
-    border-right: 1px color var(--border-color);
-    border-bottom: 1px color var(--border-color);
+    border-left: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
 }
 
 .portfolio-title {
-    margin-top: 20px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
